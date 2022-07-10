@@ -1,22 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chrome Dino Replica</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    canvas {
-      display: block;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Inter:wght@200;300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Roboto:wght@100;300&display=swap" rel="stylesheet"> -->
+    <title>GeorgeNotFound Dino Game</title>
 </head>
 <body>
-  <canvas id="game" width="640" height="400"></canvas>
-  <script src="main.js"></script>
+    <header></header>  
+    <h1>GEORGE DINO GAME :]</h1>
+    <p id="intro">Click the start button to play!</p>
+    <h2>TUTORIAL:</h2>
+    <div id="container">
+        <button id="start">START</button><br>
+    </div>
+    <p>* Click SPACE to make George jump over Dream.</p>
+    <p>* Click SHIFT to make George smaller to slide under Dream.</p>
+    <p>* The speed increases the longer you survive!</p>
+   
+   <div id="msg">I didn't have time to code it for mobile yet so you will need a computer to play :] Try again from one!</div>
+    <nav id="menu">
+        <ul>
+            <li><a href="https://www.youtube.com/c/GeorgeNotFound" target="_blank"><img src="images/youtube.png" alt="GNF's youtube logo"></a></li>
+            <li><a href="https://twitter.com/GeorgeNotFound" target="_blank"><img src="images/twitter.png" alt="GNF's twitter logo"></a></li>
+            <li><a href="https://www.instagram.com/georgenotfound/?hl=en" target="_blank"><img src="images/instagram.png" alt="GNF's instagram logo"></a></li>
+            <li><a href="https://www.tiktok.com/@georgenotfound?lang=en" target="_blank"><img src="images/tiktok.png" alt="GNF's tiktok logo"></a></li>
+            <li><a href="https://georgenotfound.shop/" target="_blank"><img src="images/merch.png" alt="GNF's merch shop logo"></a></li>
+        </ul>
+    </nav>
+    <nav id="des">
+        <ul>
+        <li><a href="https://twitter.com/desmond_lives" target="_blank"><img src="images/des.png" alt="Des' twitter"></a></li>
+    </ul>
+    </nav>
+   
+    <canvas id="game"></canvas>
+    <cite>- game by Des (twt @desmond_lives) to celebrate GeorgeNotFound -</cite>
+    <script src="main.js"></script>
 </body>
 </html>
