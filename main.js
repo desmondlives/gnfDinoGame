@@ -1,12 +1,3 @@
-/* TO DO:
-
--add music
--add hit game over sound
--arreglar speed
-
-*/
-
-
 const canvas = document.getElementById('game');
 const ctx = canvas.getContext('2d');
 
